@@ -82,19 +82,53 @@
 <body>
 
   <div class="header">
-    <svg width="80" height="48" viewBox="0 0 72 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="8" y="8" width="56" height="28" rx="14" fill="#1a1a2e" stroke="#d4af37" stroke-width="1.5"/>
-      <rect x="1" y="14" width="10" height="16" rx="5" fill="#1a1a2e" stroke="#d4af37" stroke-width="1.2"/>
-      <rect x="61" y="14" width="10" height="16" rx="5" fill="#1a1a2e" stroke="#d4af37" stroke-width="1.2"/>
-      <circle cx="20" cy="22" r="5.5" fill="none" stroke="#d4af37" stroke-width="1.2"/>
-      <line x1="20" y1="16.5" x2="20" y2="27.5" stroke="#d4af37" stroke-width="1.2"/>
-      <line x1="14.5" y1="22" x2="25.5" y2="22" stroke="#d4af37" stroke-width="1.2"/>
-      <circle cx="52" cy="19" r="2" fill="#0070cc"/>
-      <circle cx="57" cy="22" r="2" fill="#e2193a"/>
-      <circle cx="47" cy="22" r="2" fill="#56a0d3"/>
-      <circle cx="52" cy="25" r="2" fill="#c8a800"/>
-      <rect x="31" y="18" width="3" height="8" rx="1.5" fill="#d4af37" opacity="0.6"/>
-      <rect x="28.5" y="20.5" width="8" height="3" rx="1.5" fill="#d4af37" opacity="0.6"/>
+    <svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- גוף ראשי של DualSense -->
+      <path d="M22 28 C22 18 30 12 40 11 L80 11 C90 12 98 18 98 28 L98 48 C98 58 90 66 80 68 L70 70 C65 72 55 72 50 70 L40 68 C30 66 22 58 22 48 Z" fill="#1e1e2e" stroke="#d4af37" stroke-width="1.2"/>
+      <!-- כנפיים שמאלית -->
+      <path d="M22 32 C16 32 10 36 8 42 C7 46 8 52 12 54 C16 56 22 54 22 50 Z" fill="#252535" stroke="#d4af37" stroke-width="1"/>
+      <!-- כנפיים ימנית -->
+      <path d="M98 32 C104 32 110 36 112 42 C113 46 112 52 108 54 C104 56 98 54 98 50 Z" fill="#252535" stroke="#d4af37" stroke-width="1"/>
+      <!-- טריגרים עליונים L2/R2 -->
+      <path d="M30 11 C28 8 27 5 30 3 C34 1 40 2 42 6 L42 11 Z" fill="#2a2a3e" stroke="#d4af37" stroke-width="1"/>
+      <path d="M90 11 C92 8 93 5 90 3 C86 1 80 2 78 6 L78 11 Z" fill="#2a2a3e" stroke="#d4af37" stroke-width="1"/>
+      <!-- L1/R1 bumpers -->
+      <rect x="30" y="10" width="12" height="5" rx="2.5" fill="#333348" stroke="#d4af37" stroke-width="0.8"/>
+      <rect x="78" y="10" width="12" height="5" rx="2.5" fill="#333348" stroke="#d4af37" stroke-width="0.8"/>
+      <!-- touchpad מרכזי -->
+      <rect x="47" y="24" width="26" height="16" rx="4" fill="#2a2a3c" stroke="#d4af37" stroke-width="0.8" opacity="0.9"/>
+      <!-- קו touchpad -->
+      <line x1="60" y1="24" x2="60" y2="40" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
+      <!-- לוח כיוונים (D-pad) -->
+      <rect x="31" y="33" width="4" height="12" rx="1.5" fill="#3a3a50"/>
+      <rect x="27" y="37" width="12" height="4" rx="1.5" fill="#3a3a50"/>
+      <!-- כפתורי PlayStation ימין -->
+      <!-- Triangle -->
+      <circle cx="89" cy="31" r="3.5" fill="#1a3a2e" stroke="#00c896" stroke-width="1"/>
+      <text x="89" y="33.5" text-anchor="middle" font-size="5" fill="#00c896" font-family="serif">▲</text>
+      <!-- Circle -->
+      <circle cx="95" cy="37" r="3.5" fill="#3a1a1e" stroke="#e2193a" stroke-width="1"/>
+      <text x="95" y="39.5" text-anchor="middle" font-size="6" fill="#e2193a" font-family="serif">○</text>
+      <!-- Cross -->
+      <circle cx="89" cy="43" r="3.5" fill="#1a1a3a" stroke="#6699ff" stroke-width="1"/>
+      <text x="89" y="45.5" text-anchor="middle" font-size="5" fill="#6699ff" font-weight="bold" font-family="sans-serif">✕</text>
+      <!-- Square -->
+      <circle cx="83" cy="37" r="3.5" fill="#2a1a3a" stroke="#cc66ff" stroke-width="1"/>
+      <rect x="80.5" y="34.5" width="5" height="5" rx="0.5" fill="none" stroke="#cc66ff" stroke-width="1"/>
+      <!-- אנלוג שמאלי -->
+      <circle cx="40" cy="52" r="7" fill="#222238" stroke="#d4af37" stroke-width="1"/>
+      <circle cx="40" cy="52" r="4.5" fill="#2e2e48"/>
+      <!-- אנלוג ימני -->
+      <circle cx="72" cy="52" r="7" fill="#222238" stroke="#d4af37" stroke-width="1"/>
+      <circle cx="72" cy="52" r="4.5" fill="#2e2e48"/>
+      <!-- כפתורי Create/Options -->
+      <circle cx="54" cy="20" r="2.5" fill="#333348" stroke="#d4af37" stroke-width="0.7"/>
+      <circle cx="66" cy="20" r="2.5" fill="#333348" stroke="#d4af37" stroke-width="0.7"/>
+      <!-- לוגו PS קטן במרכז -->
+      <circle cx="60" cy="48" r="3" fill="#d4af37" opacity="0.15" stroke="#d4af37" stroke-width="0.5"/>
+      <text x="60" y="50" text-anchor="middle" font-size="4" fill="#d4af37" opacity="0.7" font-family="sans-serif">PS</text>
+      <!-- פס אור -->
+      <rect x="47" y="41" width="26" height="2" rx="1" fill="#003eff" opacity="0.4"/>
     </svg>
     <div class="header-title">הגרלת פיפא</div>
   </div>
